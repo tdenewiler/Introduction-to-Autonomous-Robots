@@ -39,8 +39,10 @@ jobs:
         uses: sscpac/statick-action@v0.0.2
         with:
           profile: documentation.yaml
+          check: false
 
       - name: Statick TeX
         uses: sscpac/statick-action@v0.0.2
         with:
           profile: tex-profile.yaml
+          check: false
